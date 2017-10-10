@@ -1,3 +1,6 @@
+# Cordova + Angular 2
+https://www.becompany.ch/en/blog/2016/10/19/creating-apache-cordova-app-with-angular2
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.

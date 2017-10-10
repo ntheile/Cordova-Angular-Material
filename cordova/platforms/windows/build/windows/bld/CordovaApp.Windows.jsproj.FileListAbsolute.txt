@@ -1,0 +1,17 @@
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\debug\anycpu\win8.1\resources.pri
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\debug\anycpu\win8.1\AppxManifest.xml
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\debug\anycpu\win8.1\CordovaApp.Windows.build.appxrecipe
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\priconfig.xml
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\layout.resfiles
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\resources.resfiles
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\pri.resfiles
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\qualifiers.txt
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\package.map.txt
+C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\build\windows\bld\_pkginfo.txt
