@@ -38,8 +38,8 @@
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
 
 /** Evergreen browsers require these. **/
-import 'core-js/es6/reflect';
-import 'core-js/es7/reflect';
+// import 'core-js/es6/reflect';
+// import 'core-js/es7/reflect';
 
 
 /**
@@ -53,7 +53,7 @@ import 'core-js/es7/reflect';
 /***************************************************************************************************
  * Zone JS is required by Angular itself.
  */
-import 'zone.js/dist/zone';  // Included with Angular CLI.
+// import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 
 
@@ -70,3 +70,7 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  * Need to import at least one locale-data with intl.
  */
 // import 'intl/locale-data/jsonp/en';
+
+// for android cordova - https://www.becompany.ch/en/blog/2016/10/19/creating-apache-cordova-app-with-angular2
+import 'core-js';
+import 'zone.js';

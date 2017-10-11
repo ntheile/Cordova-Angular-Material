@@ -1,5 +1,52 @@
-# Cordova + Angular 2
+# Cordova + Angular 2/4 Docs on Getting Started
+
+This article below shows how to integrate cordova and angular. A few config changes need to be made and a hook needs to be added so when you are done coding your Angular app it will compile to the cordova www folder and transpile properly.
+
 https://www.becompany.ch/en/blog/2016/10/19/creating-apache-cordova-app-with-angular2
+
+Directory Structure
+
+<pre>
+MyApp
+    └── src
+        └── app
+            └── ALL YOUR ANGULAR APP STUFF
+    └── cordova
+        ├── config.xml
+        ├── hooks
+        ├── platforms
+        ├── plugins
+        └── www
+
+</pre>
+
+# Tips
+Android issues
+
+if your app does not show up in Android you can use the web inspect fearute built into chrome to see the eror and debug
+
+    - turn on usb debugging in android
+    - open up chrome on your desktop and run about:inspect
+    - it may take a second but your remote app to debug should show up
+         - LOOKS likes this:
+                Android SDK built for x86 EMULATOR-5554
+                WebView in io.cordova.hellocordova (Version/4.0 Chrome/30.0.0.0)
+                MyApp
+                file:///android_asset/www/index.html
+
+# Common Commands
+`cordova run browser`
+
+`cordova run android`
+
+chrome://inspect
+
+# Other commands
+
+if hooks are not enabled in cordova this will build the angular app into cordova/www
+
+    - ng build --target=production --environment=prod --output-path cordova/www/
+
 
 # MyApp
 
