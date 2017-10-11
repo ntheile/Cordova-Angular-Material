@@ -18,7 +18,7 @@ under the License.
 */
 
 // Note, these will be updated automatically at build time
-var CACHE_VERSION = '1507679550567';
+var CACHE_VERSION = '1507757519245';
 var CACHE_LIST = [
     "/3rdpartylicenses.txt",
     "/config.xml",
