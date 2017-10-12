@@ -1,4 +1,14 @@
-# Cordova + Angular 2/4 Docs on Getting Started
+Project Readme - Angular 4 + Cordova + Material Design
+=======================================================
+
+# Common Commands
+`cordova run browser`
+
+`cordova run android`
+
+chrome://inspect
+
+# Getting Started 
 
 This article below shows how to integrate cordova and angular. A few config changes need to be made and a hook needs to be added so when you are done coding your Angular app it will compile to the cordova www folder and transpile properly.
 
@@ -34,24 +44,57 @@ if your app does not show up in Android you can use the web inspect fearute buil
                 MyApp
                 file:///android_asset/www/index.html
 
-# Common Commands
-`cordova run browser`
 
-`cordova run android`
+if you an get an error `Object.assign is not a function` 
+then goto polyfills.ts and comment out
 
-chrome://inspect
+<pre>
+/** Evergreen browsers require these. **/
+import 'core-js/es6/reflect';
+import 'core-js/es7/reflect';
+
+import 'zone.js/dist/zone'; 
+</pre>
+
+Then add this 
+<pre>
+import 'core-js';
+import 'zone.js';
+</pre>
+
+
 
 # Other commands
 
+**Android**
+
+To tell the cordova cli what android emulator to run (make sure its a haxm x86 b/c arm is slow AF)
+
+    cordova run --emulator androidAvdName
+
+Once the emulator is added hence forward you can run
+
+    cordova run android
+
 if hooks are not enabled in cordova this will build the angular app into cordova/www
 
-    - ng build --target=production --environment=prod --output-path cordova/www/
+    ng build --target=production --environment=prod --output-path cordova/www/
 
+
+
+
+<br/>
+<br/>
+<hr/>
+<hr/>
+<br/>
+<br/>
+
+Angular Docs
+============
 
 # MyApp
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

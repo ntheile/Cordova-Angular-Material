@@ -18,7 +18,7 @@ under the License.
 */
 
 // Note, these will be updated automatically at build time
-var CACHE_VERSION = '1507760627246';
+var CACHE_VERSION = '1507767020638';
 var CACHE_LIST = [
     "/3rdpartylicenses.txt",
     "/config.xml",
@@ -27,12 +27,12 @@ var CACHE_LIST = [
     "/cordova_plugins.js",
     "/favicon.ico",
     "/index.html",
-    "/inline.d4113f6e40dbd9dc0399.bundle.js",
-    "/main.79ac40515b2c20a56467.bundle.js",
+    "/inline.cecb2b0f6214d1c62225.bundle.js",
+    "/main.2821077884cac3f125d9.bundle.js",
     "/manifest.json",
-    "/polyfills.8eba0ab53b5457105d75.bundle.js",
-    "/styles.d41d8cd98f00b204e980.bundle.css",
-    "/vendor.8d5edefd85db8d79d6ac.bundle.js"
+    "/polyfills.a7ae8e87eb67ccc2ed32.bundle.js",
+    "/styles.3c2cfcf9fb2cfcea49af.bundle.css",
+    "/vendor.02fea502464bcecd8eed.bundle.js"
 ];
 
 this.addEventListener('install', function (event) {
