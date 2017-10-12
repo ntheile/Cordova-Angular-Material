@@ -75,9 +75,6 @@
       <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\3rdpartylicenses.txt">
-      <PackagePath>www\3rdpartylicenses.txt</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\cordova-js-src\confighelper.js">
       <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
     </AppxPackagedFile>
@@ -96,17 +93,20 @@
     <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\cordova_plugins.js">
       <PackagePath>www\cordova_plugins.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\inline.d4113f6e40dbd9dc0399.bundle.js">
-      <PackagePath>www\inline.d4113f6e40dbd9dc0399.bundle.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\inline.bundle.js">
+      <PackagePath>www\inline.bundle.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\main.79ac40515b2c20a56467.bundle.js">
-      <PackagePath>www\main.79ac40515b2c20a56467.bundle.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\main.bundle.js">
+      <PackagePath>www\main.bundle.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\polyfills.8eba0ab53b5457105d75.bundle.js">
-      <PackagePath>www\polyfills.8eba0ab53b5457105d75.bundle.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\polyfills.bundle.js">
+      <PackagePath>www\polyfills.bundle.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\vendor.8d5edefd85db8d79d6ac.bundle.js">
-      <PackagePath>www\vendor.8d5edefd85db8d79d6ac.bundle.js</PackagePath>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\styles.bundle.js">
+      <PackagePath>www\styles.bundle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\vendor.bundle.js">
+      <PackagePath>www\vendor.bundle.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\WinJS\js\base.js">
       <PackagePath>www\WinJS\js\base.js</PackagePath>
@@ -114,14 +114,26 @@
     <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\css\splashscreen.css">
       <PackagePath>www\css\splashscreen.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\styles.d41d8cd98f00b204e980.bundle.css">
-      <PackagePath>www\styles.d41d8cd98f00b204e980.bundle.css</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\favicon.ico">
       <PackagePath>www\favicon.ico</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\index.html">
       <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\inline.bundle.js.map">
+      <PackagePath>www\inline.bundle.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\main.bundle.js.map">
+      <PackagePath>www\main.bundle.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\polyfills.bundle.js.map">
+      <PackagePath>www\polyfills.bundle.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\styles.bundle.js.map">
+      <PackagePath>www\styles.bundle.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\www\vendor.bundle.js.map">
+      <PackagePath>www\vendor.bundle.js.map</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\u402046\Desktop\Cordova2\MyApp\cordova\platforms\windows\config.xml">
       <PackagePath>config.xml</PackagePath>

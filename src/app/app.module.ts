@@ -4,7 +4,16 @@ import { NgModule } from '@angular/core';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
-import {MatButtonModule, MatCheckbox, MatCardModule, MatSidenavModule, MatMenuModule, MatToolbarModule} from '@angular/material';
+import {
+  MatIconModule,
+  MatButtonModule,
+  MatCheckbox,
+  MatCardModule,
+  MatSidenavModule,
+  MatMenuModule,
+  MatToolbarModule,
+  MatListModule
+} from '@angular/material';
 
 
 import { AppComponent } from './app.component';
@@ -18,11 +27,13 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MatIconModule,
     MatButtonModule,
     MatCardModule,
     MatSidenavModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,27 +1,37 @@
-<div >
-
-
-  <mat-toolbar color="primary" >
-    <span>Custom Toolbar</span>
+<section class="app-wrapper" >
+  <mat-toolbar color="primary">
     <div class="example-sidenav-content">
-      <button type="button" mat-button (click)="sidenav.open()">
-        Open sidenav
-      </button>
-      <button type="button" mat-button (click)="sidenav.close()">
-        Close sidenav
+      <button mat-icon-button>
+        <i class="material-icons" (click)="sidenav.toggle()">menu</i>
       </button>
     </div>
-
-
   </mat-toolbar>
-
-
-  <mat-sidenav-container class="example-container">
-    <mat-sidenav #sidenav class="example-sidenav">
-      Jolly good!
+ 
+  <mat-sidenav-container class="sidenav-container">
+   
+    <mat-sidenav #sidenav mode="side">
+      <section class="side-nav-content"  >
+          <mat-list>
+              <mat-list-item>Item 1</mat-list-item><hr/>
+              <mat-list-item>Item 2</mat-list-item><hr/>
+              <mat-list-item>Item 3</mat-list-item><hr/>
+          </mat-list>
+      </section>
     </mat-sidenav>
 
-
-
+   
+   
+    <div class="example-scrolling-content" style="padding: 20px">
+      Lorem ipsum dolor sit amet, pede a libero aenean phasellus, lectus metus sint ut risus, fusce
+      vel in pellentesque. Nisl rutrum etiam morbi consectetuer tempor magna, aenean nullam nunc id,
+      neque vivamus interdum sociis nulla scelerisque sem, dolor id wisi turpis magna aliquam magna.
+      Risus accumsan hac eget etiam donec sed, senectus erat mattis quam, tempor vel urna occaecat
+      cras, metus urna augue nec at. Et morbi amet dui praesent, nec eu at, ligula ipsum dui
+      sollicitudin, quis nisl massa viverra ligula, mauris fermentum orci arcu enim fringilla. Arcu
+      erat nulla in aenean lacinia ullamcorper, urna ante nam et sagittis, tristique vehicula nibh
+      ipsum vivamus, proin proin. Porta commodo nibh quis libero amet. Taciti dui, sapien
+      consectetuer.
+    </div>
   </mat-sidenav-container>
-</div>
+
+</section>

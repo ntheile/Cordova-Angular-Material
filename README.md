@@ -2,9 +2,24 @@ Project Readme - Angular 4 + Cordova + Material Design
 =======================================================
 
 # Common Commands
+
+To test cordova in the browser. Make sure you are in the /MyApp/cordova directory
+
 `cordova run browser`
 
+To Test on an android emulator or device
+
 `cordova run android`
+
+To test on a android emulator by avd name, mine below is named android
+
+`cordova emulate --target=android`
+
+To run the regular angular app to get live reload. Make sure you are in the /MyApp directory where the angular app is at
+
+`ng serve`
+
+To remote inspect any android instances in chrome
 
 chrome://inspect
 

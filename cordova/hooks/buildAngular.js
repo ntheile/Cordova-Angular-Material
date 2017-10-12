@@ -6,8 +6,10 @@ module.exports = function(context) {
     const basePath = context.opts.projectRoot;
     const baseWWW = basePath + '/www';
 
+    //"ng build --target=production --environment=prod --output-path cordova/www/",
+
     console.log(execSync(
-      "ng build --target=production --environment=prod --output-path cordova/www/",
+      "ng build --target=development --environment=dev --output-path cordova/www/",
       {
         maxBuffer: 1024*1024,
         cwd: basePath + '/..'

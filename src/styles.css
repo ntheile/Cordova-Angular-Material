@@ -1,20 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
+body {
+  height: 100%;
+}
 
-.example-container {
-    width: 500px;
-    height: 800px;
-    
-  }
-  
-  .example-sidenav-content {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .example-sidenav {
-    padding: 20px;
-  }
+.app-wrapper{
+  min-height: 100vh;
+}
+
+.sidenav-container {
+  min-height: 100vh;
+}
+
+.sidenav-container mat-sidenav {
+  max-width: 200px;
+  min-height: 800px;
+}
+
+.sidenav-container .mat-sidenav-content,
+.sidenav-container mat-sidenav {
+  display: flex;
+  overflow: visible;
+}
+
+.side-nav-content {
+  min-height: 100vh;
+  min-width: 200px;
+  background-color: #eee
+}
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
