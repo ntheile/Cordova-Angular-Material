@@ -96,6 +96,15 @@ if hooks are not enabled in cordova this will build the angular app into cordova
     ng build --target=production --environment=prod --output-path cordova/www/
 
 
+iOS Debug
+===========
+TODO - figure this out
+
+`npm install -g taco-cli`
+
+`taco remote add ios`
+
+
 
 
 <br/>
