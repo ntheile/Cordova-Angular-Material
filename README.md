@@ -1,7 +1,7 @@
 Project Readme - Angular 4 + Cordova + Material Design
 =======================================================
 
-# Common Commands
+## Common Commands
 
 To test cordova in the browser. Make sure you are in the /MyApp/cordova directory
 
@@ -23,7 +23,7 @@ To remote inspect any android instances in chrome
 
 chrome://inspect
 
-# Getting Started 
+## Getting Started 
 
 This article below shows how to integrate cordova and angular. A few config changes need to be made and a hook needs to be added so when you are done coding your Angular app it will compile to the cordova www folder and transpile properly.
 
@@ -45,7 +45,7 @@ MyApp
 
 </pre>
 
-# Tips
+## Tips and Troubleshooting
 Android issues
 
 if your app does not show up in Android you can use the web inspect fearute built into chrome to see the eror and debug
@@ -79,7 +79,7 @@ import 'zone.js';
 
 
 
-# Other commands
+## Other commands
 
 **Android**
 
@@ -96,28 +96,38 @@ if hooks are not enabled in cordova this will build the angular app into cordova
     ng build --target=production --environment=prod --output-path cordova/www/
 
 
-iOS Debug
-===========
-TODO - figure this out
+## iOS Debugging
 
-`npm install -g taco-cli`
+I recommend cloning your cordova project to the mac and installing VScode to debug. The TACO (Visual Studio Tools for apache cordova) tools have an old cordova version dependency and remoting may or may not work.
 
-`taco remote add ios`
+On the Mac:
 
+1. Install node on the mac
 
+        https://nodejs.org/en/download/
+
+2. Update NPM
+
+        sudo  npm install npm -g
+
+3. Install Angular CLI 
+
+        sudo npm install @angular/cli -g
+
+4. Install Cordova
+
+        sudo npm install -g cordova
 
 
 <br/>
 <br/>
-<hr/>
-<hr/>
+<hr style="font-weight:bold"/>
 <br/>
 <br/>
 
-Angular Docs
-============
+# Angular Docs
 
-# MyApp
+## MyApp
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 ## Development server
 
